@@ -1,4 +1,5 @@
 import { calculateChange, getBillKeyByAmount, validateBillDenominations } from './utils';
+import { ZERO } from './constants'; 
 
 export default class LemonadeStandQueue {
   constructor (queue = []) {
