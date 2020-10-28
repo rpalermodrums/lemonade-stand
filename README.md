@@ -19,6 +19,9 @@ A lot of the more complicated logic lives here. We abstract the more complicated
 ### Tests
 A few paramaterized tests to ensure everything functions as expected. To run the test suite, run `node build.js`
 
+### Index
+An entrypoint to tie all of the other modules together
+
 # Prompt
 
 Lemonade Change
