@@ -2,8 +2,11 @@ import { calculateChange, getBillKeyByAmount, validateBillDenominations } from '
 
 export default class LemonadeStandQueue {
   constructor (queue = []) {
+    // Set instance properties
     this.register = new CashRegister();
     this.queue = validateBillDenominations(queue) && queue;
+    
+    // Bind methods to instance
     this.serveQueue = this.serveQueue.bind(this);
   }
 
@@ -15,7 +18,10 @@ export default class LemonadeStandQueue {
 
 class CashRegister {
   constructor () {
+    // Set instance properties
     this.fives = this.tens = this.twenties = ZERO;
+    
+    // Bind methods to instance
     this.sellItemToCustomer = this.sellItemToCustomer.bind(this);
     this.updateRegister = this.updateRegister.bind(this);
     this.makeChangeForCustomer = this.makeChangeForCustomer.bind(this);
