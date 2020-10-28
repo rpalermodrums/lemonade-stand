@@ -1,5 +1,6 @@
 'use strict';
 
+const ZERO = 0;
 const ONE = 1;
 const THREE = 3;
 const FIVE = 5;
