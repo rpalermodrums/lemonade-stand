@@ -16,6 +16,9 @@ These are values that don't need to change. we store them here so that we don't 
 ### Utils
 A lot of the more complicated logic lives here. We abstract the more complicated logic into small utilities so that model methods read more like english than code
 
+### Tests
+A few paramaterized tests to ensure everything functions as expected. To run the test suite, run `node build.js`
+
 # Prompt
 
 Lemonade Change
