@@ -2,10 +2,11 @@
 
 ## Description
 
-This repo shows two different approaches to the same problem from a recent mock interview with an aspiring programmer. 
+This repo shows two different approaches to the same interview problem. 
+
 In `functional.js`, you'll find the solution given by the organization that organizes the interviews. It's pure JS, but it's hard to read and exhibits poor programming practices such as unclear variable naming, nested control-flow, lack of guiding comments, and inconsistent code style.
 
-In the `src` directory is my solution, which employs an Object-Oriented approach. The compoenets are:
+In the `src` directory is the desired solution, given the constraint that we are employing OOP. The components are:
 
 ### Models
 Models represent blueprints for creating the real-world objects we're representing. In this case, we have a queue and a cash register. Each model has properties (queue has a cash register to serve it, cash register has the count of $5,$10,$20 dollar bills to keep track of) and functions/methods (queue kicks off the process of serving customers, cash register handles each purchase and makes change).
